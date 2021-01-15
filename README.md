@@ -3,7 +3,7 @@
 Bash script that cycles connections to 1800+ US Nord VPN servers on a set interval.
 Installs nordvpn cli if not already present.
 
-1st argument sets interval duration in seconds.
+1st argument sets interval duration in seconds, defaults to 10s.
 
   bash nordvpn_tumbler.sh 15
   
